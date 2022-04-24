@@ -1,4 +1,8 @@
 # Near_Project_Movie_Database
+PROJECT IS IN PROGRESS
+|//--------| %20
+
+
 Decentralized movie database system on the blockchain. Movie lovers can make several basic functions on the blockchain like add, delete or rate the movies on the database.
 
 This project will ensure basic movie database system to the user.
