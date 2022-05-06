@@ -23,8 +23,11 @@
     "asbuild:debug": "asc assembly/index.ts --target debug",
     "asbuild:release": "asc assembly/index.ts --target release",
     "asbuild": "yarn asbuild:debug && yarn asbuild:release",
-    "test": "node tests",
-    "start": "npx serve ."
+    "start": "npx serve .",
+    "build:release": "asb",
+    "deploy": "near dev-deploy build/release/Near_Project_Movie_Database.wasm",
+    "dev": "yarn build:release && yarn deploy",
+    "test": "asp"
   },
   "devDependencies": {
     "assemblyscript": "^0.20.6"
