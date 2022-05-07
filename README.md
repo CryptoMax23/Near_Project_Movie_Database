@@ -63,7 +63,9 @@ Getting Started:
         echo $USERID
 
 Other documentation
+
     For scripts and instructions about them
+    
         see /scripts/README
 
 USAGE P2
