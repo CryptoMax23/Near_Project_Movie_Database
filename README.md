@@ -34,22 +34,30 @@ May come FEATURES
 USAGE P1
 --------
 Prerequisites:
+
     Current version of Node.js <=v16.14.2
     Check the current version by:
     node -v
+    
 Getting Started:
+
     clone this repo to a local folder
         git clone https://github.com/a-baran-orhan/Near_Movie_Database
+        
     Go to folder
         cd Near_Movie_Database
+        
     Run
         yarn
         yarn dev
+        
     Set contract id
         export CONTRACT=<dev-....>   
+        
     Login to your account for setting user id
         near login
         export USERID=<yourId>
+        
     You can check them with
         echo $CONTRACT
         echo $USERID
