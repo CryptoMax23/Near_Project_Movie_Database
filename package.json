@@ -1,8 +1,8 @@
 {
-  "name": "Near_Project_Movie_Database",
+  "name": "Near_Movie_Database",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/a-baran-orhan/Near_Project_Movie_Database",
+  "repository": "https://github.com/a-baran-orhan/Near_Movie_Database",
   "author": "a-baran-orhan <a.baranorhan@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -25,7 +25,7 @@
     "asbuild": "yarn asbuild:debug && yarn asbuild:release",
     "start": "npx serve .",
     "build:release": "asb",
-    "deploy": "near dev-deploy build/release/Near_Project_Movie_Database.wasm",
+    "deploy": "near dev-deploy build/release/Near_Movie_Database.wasm",
     "dev": "yarn build:release && yarn deploy",
     "test": "asp"
   },

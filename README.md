@@ -1,4 +1,4 @@
-# Near_Project_Movie_Database
+# Near_Movie_Database
 <<<<<<< HEAD
 
 Short video about the project
@@ -9,21 +9,21 @@ Short video about the project
 Movie Database on Blockchain
 ----------
 This project will ensure basic movie database system to the user.
-Decentralized movie database system. 
-Movie lovers can make several basic functions on Near Protocol. 
+Decentralized movie database system.
+Movie lovers can make several basic functions on Near Protocol.
 
 FEATURES
 ----------
 Users can donate 1 NEAR to their favorite movie, rate the movie, update the movie if it is in the TOP100 IMDB, get info about the movie by its ID and of course add movies to the database.
 
-In addition all the transactions stored in the blockchain. 
+In addition all the transactions stored in the blockchain.
 
-May come FEATURES 
+May come FEATURES
 ----------
 -Anti-Bot system to prevent high rates
 -More parameter for the Movie like Director or whole cast.
 -Deleting the wrong informations about the movies by comparing them with other proven databases.
--Deciding what will happen to the donated NEAR. 
+-Deciding what will happen to the donated NEAR.
 -Checking system for user can olny rate once for each movie.
 
 USAGE P1
@@ -34,9 +34,9 @@ Prerequisites:
     node -v
 Getting Started:
     clone this repo to a local folder
-        git clone https://github.com/a-baran-orhan/Near_Project_Movie_Database
+        git clone https://github.com/a-baran-orhan/Near_Movie_Database
     Go to folder
-        cd Near_Project_Movie_Database
+        cd Near_Movie_Database
     Run
         yarn
         yarn dev
@@ -51,7 +51,7 @@ Getting Started:
 
 Other documentation
     For scripts and instructions about them
-        see /scripts/README 
+        see /scripts/README
 
 USAGE P2
 ----------
@@ -82,7 +82,7 @@ For checking the key has value or not in storage:
         (You can see the your keys with)
             near login
             near keys YOUR_ACCOUNT_ID.testnet
-    
+
 
 
 =======
