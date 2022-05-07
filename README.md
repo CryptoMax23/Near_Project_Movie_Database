@@ -61,28 +61,36 @@ Other documentation
 USAGE P2
 ----------
 For adding movie to the database with several parameters:
+    
     near call $CONTRACT create '{"movieTitle":"INSERT MOVIE TITLE","language":"INSERT LANGUAGE","releaseDate":INSERT YEAR,"isTop100":INSERT true OR false}'   --accountId YOUR_ACCOUNT_ID.testnet
 
 For getting movie info by ID:
+    
     near view $CONTRACT getInfo '{"movieId":"INSERT ID HERE"}' --accountId YOUR_ACCOUNT_ID.testnet
 
 For getting the movie list with different offset and limit:
+    
     near view $CONTRACT getMovieList '{"offset":0,"limit":10}' --accountId YOUR_ACCOUNT_ID.testnet
 
 For donate 1 NEAR to movie by ID:
+    
     near call $CONTRACT donate '{"movieId":INSERT MOVIE ID}' --accountId YOUR_ACCOUNT_ID.testnet
 
 For deleting movie by ID:
+    
     near call $CONTRACT deleteMovie '{"movieId":INSERT MOVIE ID}' --accountId YOUR_ACCOUNT_ID.testnet
 
 For rate the movie by ID and number between 0-10:
+    
     near call $CONTRACT rate '{"movieId":INSERT MOVIE ID,"rate":INSERT NUMBER}' --accountId YOUR_ACCOUNT_ID.testnet
 
 For updating the movie if it is in the TOP100 list:
 (Do not forget if the movie you added already TOP100 update also with)
+    
     near call $CONTRACT updateTop '{"movieId":INSERT MOVIE ID, "updates":{"isTop100":true} }' --accountId YOUR_ACCOUNT_ID.testnet
 
 For checking the key has value or not in storage:
+    
     near call $CONTRACT read '{"key":"INSERT YOUR KEY"}' --accountId YOUR_ACCOUNT_ID.testnet
         (You can see the your keys with)
             near login
