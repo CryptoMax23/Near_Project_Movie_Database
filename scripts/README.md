@@ -25,6 +25,7 @@ EXPLAIN FOR COMMANDS
     This script is for the cleanup, compile and deploy contract
     Script is taken from the repo:
         https://github.com/Learn-NEAR/NCD.L1.sample--thanks/tree/main/scripts
+        
 2-
     This script is for the resetting the database,
     It will delete all the movies and user can start clean database.
