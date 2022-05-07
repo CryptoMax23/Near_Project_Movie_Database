@@ -22,6 +22,7 @@ EXPLAIN FOR COMMANDS
 ----------
 
 1-  This script is for the cleanup, compile and deploy contract
+    
     Script is taken from the repo:
         https://github.com/Learn-NEAR/NCD.L1.sample--thanks/tree/main/scripts
         
