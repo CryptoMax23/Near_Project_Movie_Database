@@ -1,4 +1,4 @@
-# Near_Movie_Database
+# Near_Project_Movie_Database
 
 
 Short video about the project
@@ -42,7 +42,7 @@ Prerequisites:
 Getting Started:
 
     clone this repo to a local folder
-        git clone https://github.com/a-baran-orhan/Near_Movie_Database
+        git clone https://github.com/a-baran-orhan/Near_Project_Movie_Database
         
     Go to folder
         cd Near_Movie_Database
