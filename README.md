@@ -21,10 +21,15 @@ In addition all the transactions stored in the blockchain.
 May come FEATURES
 ----------
 -Anti-Bot system to prevent high rates
+
 -More parameter for the Movie like Director or whole cast.
+
 -Deleting the wrong informations about the movies by comparing them with other proven databases.
+
 -Deciding what will happen to the donated NEAR.
+
 -Checking system for user can olny rate once for each movie.
+
 
 USAGE P1
 --------
