@@ -18,7 +18,7 @@ COMMANDS
     2.reset.sh
     3.movie-list.sh
 
-EXPLAIN FOR COMMANDS
+EXPLANATIONS FOR COMMANDS
 ----------
 
 1-  This script is for the cleanup, compile and deploy contract
