@@ -9,7 +9,7 @@ ENVIROMENT
 
     DONT FORGET before using scripts
         export CONTRACT=dev-....-...
-        export ADDER=<your-testnet-name>.testnet  (or .mainnet)
+        export USERID=<your-testnet-name>.testnet  (or .mainnet)
 
 COMMANDS
 ---------
